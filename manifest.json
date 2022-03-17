@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Don't discard",
+  "description": "Disables automatic tab discarding feature, configurable for specific urls.",
+  "version": "0.1.0",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "option/index.html",
+  "permissions": ["tabs", "storage"]
+}
